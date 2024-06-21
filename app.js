@@ -74,3 +74,28 @@ do{
             
    }while(i <= 100);
 
+
+
+
+
+   console.log(`ex 4!!!!`)
+
+   let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
+   let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random number between 100 and 500
+    
+   for( let i = 0; i <= n; i ++){
+
+    if(i == value){
+        console.log(`${value} Found value!`);
+        break;
+    }
+    if (i == n){
+        console.log(`Did not find value`);
+
+    }
+    }
+
+   
+
+
+
